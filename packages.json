@@ -1,14 +1,10 @@
 {
-  "daspkg-test-pure": {
-    "url": "github.com/borisbat/daspkg-test-pure",
-    "description": "Test package: pure daslang module"
-  },
-  "daspkg-test-deps": {
-    "url": "github.com/borisbat/daspkg-test-deps",
-    "description": "Test package: module with dependencies"
-  },
-  "daspkg-test-versions": {
-    "url": "github.com/borisbat/daspkg-test-versions",
-    "description": "Test package: module with version tags"
-  }
+	"daspkg-test-deps" : {
+		"url" : "github.com/borisbat/daspkg-test-deps",
+		"description" : "Test package: module with dependencies"
+	},
+	"daspkg-test-pure" : {
+		"url" : "github.com/borisbat/daspkg-test-pure",
+		"description" : "Test package: pure daslang module"
+	}
 }
