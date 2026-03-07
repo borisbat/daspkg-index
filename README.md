@@ -8,8 +8,9 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 |---------|-------------|-----|
 | daspkg-test-deps | Test package: module with dependencies | [github.com/borisbat/daspkg-test-deps](https://github.com/borisbat/daspkg-test-deps) |
 | daspkg-test-pure | Test package: pure daslang module | [github.com/borisbat/daspkg-test-pure](https://github.com/borisbat/daspkg-test-pure) |
+| daspkg-test-versions | Test package: module with version tags | [github.com/borisbat/daspkg-test-versions](https://github.com/borisbat/daspkg-test-versions) |
 
-_2 package(s) registered._
+_3 package(s) registered._
 
 ## Adding a package
 
