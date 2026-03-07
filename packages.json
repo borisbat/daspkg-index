@@ -1,10 +1,12 @@
-{
-	"daspkg-test-deps" : {
+[
+	{
+		"name" : "daspkg-test-deps",
 		"url" : "github.com/borisbat/daspkg-test-deps",
 		"description" : "Test package: module with dependencies"
 	},
-	"daspkg-test-pure" : {
+	{
+		"name" : "daspkg-test-pure",
 		"url" : "github.com/borisbat/daspkg-test-pure",
 		"description" : "Test package: pure daslang module"
 	}
-}
+]
