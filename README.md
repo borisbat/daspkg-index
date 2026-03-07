@@ -1,22 +1,8 @@
 # daspkg package index
 
-Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), the daslang package manager.
+| Package | Description | URL |
+|---------|-------------|-----|
+| daspkg-test-deps | Test package: module with dependencies | [github.com/borisbat/daspkg-test-deps](https://github.com/borisbat/daspkg-test-deps) |
+| daspkg-test-pure | Test package: pure daslang module | [github.com/borisbat/daspkg-test-pure](https://github.com/borisbat/daspkg-test-pure) |
 
-## Adding a package
-
-1. Fork this repo
-2. Add your package to `packages.json`
-3. Open a PR
-
-## Format
-
-```json
-{
-  "package-name": {
-    "url": "github.com/owner/repo",
-    "description": "Short description"
-  }
-}
-```
-
-The `url` is without `https://` prefix. daspkg prepends it automatically.
+_2 package(s) registered._
