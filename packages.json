@@ -1,5 +1,10 @@
 [
 	{
+		"name" : "dasTelegram",
+		"url" : "github.com/borisbat/dasTelegram",
+		"description" : "Telegram Bot API bindings for daslang — zero-DOM JSON via sscan_json/sprint_json"
+	},
+	{
 		"name" : "daspkg-test-deps",
 		"url" : "github.com/borisbat/daspkg-test-deps",
 		"description" : "Test package: module with dependencies"
