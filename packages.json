@@ -1,27 +1,72 @@
 [
 	{
+		"modules" : [
+			"anthropic"
+		],
 		"name" : "das-claude",
 		"url" : "github.com/borisbat/dasAnthropic",
+		"author" : "borisbat",
+		"license" : "BSD-3-Clause",
+		"min_sdk" : "0.4",
+		"tags" : [
+			"l",
+			"g",
+			"a"
+		],
 		"description" : "Typed bindings for the Anthropic Claude Messages API"
 	},
 	{
+		"modules" : [
+			"telegram"
+		],
 		"name" : "dasTelegram",
 		"url" : "github.com/borisbat/dasTelegram",
+		"author" : "borisbat",
+		"license" : "BSD-3-Clause",
+		"tags" : [
+			"e",
+			"a",
+			"d"
+		],
 		"description" : "Telegram Bot API bindings for daslang — zero-DOM JSON via sscan_json/sprint_json"
 	},
 	{
+		"modules" : [
+			"test_deps"
+		],
 		"name" : "daspkg-test-deps",
 		"url" : "github.com/borisbat/daspkg-test-deps",
+		"author" : "borisbat",
+		"dependencies" : [
+			"daspkg-test-pure"
+		],
+		"tags" : [
+			""
+		],
 		"description" : "Test package: module with dependencies"
 	},
 	{
+		"modules" : [
+			"test_pure"
+		],
 		"name" : "daspkg-test-pure",
 		"url" : "github.com/borisbat/daspkg-test-pure",
+		"author" : "borisbat",
+		"tags" : [
+			""
+		],
 		"description" : "Test package: pure daslang module"
 	},
 	{
+		"modules" : [
+			"test_versions"
+		],
 		"name" : "daspkg-test-versions",
 		"url" : "github.com/borisbat/daspkg-test-versions",
+		"author" : "borisbat",
+		"tags" : [
+			""
+		],
 		"description" : "Test package: module with version tags"
 	}
 ]
