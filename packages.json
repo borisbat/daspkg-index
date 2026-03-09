@@ -1,5 +1,10 @@
 [
 	{
+		"name" : "das-claude",
+		"url" : "github.com/borisbat/dasAnthropic",
+		"description" : "Typed bindings for the Anthropic Claude Messages API"
+	},
+	{
 		"name" : "dasTelegram",
 		"url" : "github.com/borisbat/dasTelegram",
 		"description" : "Telegram Bot API bindings for daslang — zero-DOM JSON via sscan_json/sprint_json"
