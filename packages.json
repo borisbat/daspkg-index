@@ -1,8 +1,5 @@
 [
 	{
-		"modules" : [
-			"anthropic"
-		],
 		"name" : "das-claude",
 		"url" : "github.com/borisbat/dasAnthropic",
 		"author" : "borisbat",
@@ -17,9 +14,6 @@
 	},
 	{
 		"has_native" : true,
-		"modules" : [
-			"imgui"
-		],
 		"name" : "dasImgui",
 		"url" : "github.com/borisbat/dasImgui",
 		"author" : "borisbat",
@@ -32,9 +26,6 @@
 	},
 	{
 		"has_native" : true,
-		"modules" : [
-			"imgui_node_editor"
-		],
 		"dependencies" : [
 			"dasImgui"
 		],
@@ -49,9 +40,6 @@
 		"description" : "imgui-node-editor bindings for daslang"
 	},
 	{
-		"modules" : [
-			"telegram"
-		],
 		"name" : "dasTelegram",
 		"url" : "github.com/borisbat/dasTelegram",
 		"author" : "borisbat",
@@ -64,9 +52,6 @@
 		"description" : "Telegram Bot API bindings for daslang — zero-DOM JSON via sscan_json/sprint_json"
 	},
 	{
-		"modules" : [
-			"test_deps"
-		],
 		"name" : "daspkg-test-deps",
 		"url" : "github.com/borisbat/daspkg-test-deps",
 		"author" : "borisbat",
@@ -79,9 +64,6 @@
 		"description" : "Test package: module with dependencies"
 	},
 	{
-		"modules" : [
-			"test_pure"
-		],
 		"name" : "daspkg-test-pure",
 		"url" : "github.com/borisbat/daspkg-test-pure",
 		"author" : "borisbat",
@@ -91,9 +73,6 @@
 		"description" : "Test package: pure daslang module"
 	},
 	{
-		"modules" : [
-			"test_versions"
-		],
 		"name" : "daspkg-test-versions",
 		"url" : "github.com/borisbat/daspkg-test-versions",
 		"author" : "borisbat",
