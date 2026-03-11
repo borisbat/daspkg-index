@@ -8,6 +8,7 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 |--------|---------|--------|
 | `anthropic` | das-claude | `daspkg install github.com/borisbat/dasAnthropic` |
 | `imgui` | dasImgui | `daspkg install github.com/borisbat/dasImgui` |
+| `imgui` | dasImguiNodeEditor | `daspkg install github.com/borisbat/dasImguiNodeEditor` |
 | `telegram` | dasTelegram | `daspkg install github.com/borisbat/dasTelegram` |
 | `test_deps` | daspkg-test-deps | `daspkg install github.com/borisbat/daspkg-test-deps` |
 | `test_pure` | daspkg-test-pure | `daspkg install github.com/borisbat/daspkg-test-pure` |
@@ -21,11 +22,11 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 
 **bot**: dasTelegram
 
-**gui**: dasImgui
+**gui**: dasImgui, dasImguiNodeEditor
 
 **http**: das-claude
 
-**imgui**: dasImgui
+**imgui**: dasImgui, dasImguiNodeEditor
 
 **telegram**: dasTelegram
 
@@ -58,6 +59,21 @@ Dear ImGui bindings for daslang
 - **Native:** yes (requires C/C++ toolchain)
 - **Install:** `daspkg install github.com/borisbat/dasImgui`
 - **URL:** [github.com/borisbat/dasImgui](https://github.com/borisbat/dasImgui)
+
+---
+
+### dasImguiNodeEditor
+
+imgui-node-editor bindings for daslang
+
+- **Author:** borisbat
+- **License:** MIT
+- **Modules:** `imgui`
+- **Tags:** gui, imgui
+- **Native:** yes (requires C/C++ toolchain)
+- **Dependencies:** dasImgui
+- **Install:** `daspkg install github.com/borisbat/dasImguiNodeEditor`
+- **URL:** [github.com/borisbat/dasImguiNodeEditor](https://github.com/borisbat/dasImguiNodeEditor)
 
 ---
 
@@ -111,7 +127,7 @@ Test package: module with version tags
 
 ---
 
-_6 package(s) registered._
+_7 package(s) registered._
 
 ## Adding a package
 

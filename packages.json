@@ -31,6 +31,24 @@
 		"description" : "Dear ImGui bindings for daslang"
 	},
 	{
+		"has_native" : true,
+		"modules" : [
+			"imgui"
+		],
+		"dependencies" : [
+			"dasImgui"
+		],
+		"author" : "borisbat",
+		"license" : "MIT",
+		"tags" : [
+			"gui",
+			"imgui"
+		],
+		"name" : "dasImguiNodeEditor",
+		"url" : "github.com/borisbat/dasImguiNodeEditor",
+		"description" : "imgui-node-editor bindings for daslang"
+	},
+	{
 		"modules" : [
 			"telegram"
 		],
