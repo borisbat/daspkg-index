@@ -7,6 +7,7 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 | Module | Package | Install |
 |--------|---------|--------|
 | `anthropic` | das-claude | `daspkg install github.com/borisbat/dasAnthropic` |
+| `imgui` | dasImgui | `daspkg install github.com/borisbat/dasImgui` |
 | `telegram` | dasTelegram | `daspkg install github.com/borisbat/dasTelegram` |
 | `test_deps` | daspkg-test-deps | `daspkg install github.com/borisbat/daspkg-test-deps` |
 | `test_pure` | daspkg-test-pure | `daspkg install github.com/borisbat/daspkg-test-pure` |
@@ -20,7 +21,11 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 
 **bot**: dasTelegram
 
+**gui**: dasImgui
+
 **http**: das-claude
+
+**imgui**: dasImgui
 
 **telegram**: dasTelegram
 
@@ -39,6 +44,20 @@ Typed bindings for the Anthropic Claude Messages API
 - **Min SDK:** 0.4
 - **Install:** `daspkg install github.com/borisbat/dasAnthropic`
 - **URL:** [github.com/borisbat/dasAnthropic](https://github.com/borisbat/dasAnthropic)
+
+---
+
+### dasImgui
+
+Dear ImGui bindings for daslang
+
+- **Author:** borisbat
+- **License:** MIT
+- **Modules:** `imgui`
+- **Tags:** gui, imgui
+- **Native:** yes (requires C/C++ toolchain)
+- **Install:** `daspkg install github.com/borisbat/dasImgui`
+- **URL:** [github.com/borisbat/dasImgui](https://github.com/borisbat/dasImgui)
 
 ---
 
@@ -92,7 +111,7 @@ Test package: module with version tags
 
 ---
 
-_5 package(s) registered._
+_6 package(s) registered._
 
 ## Adding a package
 
