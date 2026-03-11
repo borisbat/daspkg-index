@@ -26,17 +26,17 @@
 	},
 	{
 		"has_native" : true,
+		"name" : "dasImguiNodeEditor",
+		"url" : "github.com/borisbat/dasImguiNodeEditor",
+		"author" : "borisbat",
+		"license" : "MIT",
 		"dependencies" : [
 			"dasImgui"
 		],
-		"author" : "borisbat",
-		"license" : "MIT",
 		"tags" : [
 			"gui",
 			"imgui"
 		],
-		"name" : "dasImguiNodeEditor",
-		"url" : "github.com/borisbat/dasImguiNodeEditor",
 		"description" : "imgui-node-editor bindings for daslang"
 	},
 	{
