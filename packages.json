@@ -33,7 +33,7 @@
 	{
 		"has_native" : true,
 		"modules" : [
-			"imgui"
+			"imgui_node_editor"
 		],
 		"dependencies" : [
 			"dasImgui"
