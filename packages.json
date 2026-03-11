@@ -16,6 +16,21 @@
 		"description" : "Typed bindings for the Anthropic Claude Messages API"
 	},
 	{
+		"has_native" : true,
+		"modules" : [
+			"imgui"
+		],
+		"name" : "dasImgui",
+		"url" : "github.com/borisbat/dasImgui",
+		"author" : "borisbat",
+		"license" : "MIT",
+		"tags" : [
+			"gui",
+			"imgui"
+		],
+		"description" : "Dear ImGui bindings for daslang"
+	},
+	{
 		"modules" : [
 			"telegram"
 		],
