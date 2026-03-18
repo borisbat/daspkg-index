@@ -1,5 +1,17 @@
 [
 	{
+		"name" : "das-cards",
+		"url" : "github.com/borisbat/dasCards",
+		"author" : "borisbat",
+		"license" : "LGPL-2.1",
+		"tags" : [
+			"graphics",
+			"games",
+			"cards"
+		],
+		"description" : "Vector playing card rendering — SVG-based triangle mesh cards for OpenGL"
+	},
+	{
 		"name" : "das-claude",
 		"url" : "github.com/borisbat/dasAnthropic",
 		"author" : "borisbat",

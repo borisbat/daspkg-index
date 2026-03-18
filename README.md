@@ -6,6 +6,7 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 
 | Package | Description | Install |
 |---------|-------------|---------|
+| [das-cards](#das-cards) | Vector playing card rendering — SVG-based triangle mesh... | `daspkg install das-cards` |
 | [das-claude](#das-claude) | Typed bindings for the Anthropic Claude Messages API | `daspkg install das-claude` |
 | [das-minfft](#das-minfft) | Minimal FFT library bindings for daslang — real/complex... | `daspkg install das-minfft` |
 | [dasImgui](#dasImgui) | Dear ImGui bindings for daslang | `daspkg install dasImgui` |
@@ -25,7 +26,13 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 
 **bot**: dasTelegram
 
+**cards**: das-cards
+
 **fft**: das-minfft
+
+**games**: das-cards
+
+**graphics**: das-cards
 
 **gui**: dasImgui, dasImguiNodeEditor
 
@@ -42,6 +49,18 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 **test**: daspkg-test-deps, daspkg-test-pure, daspkg-test-versions
 
 ## Packages
+
+### das-cards
+
+Vector playing card rendering — SVG-based triangle mesh cards for OpenGL
+
+- **Author:** borisbat
+- **License:** LGPL-2.1
+- **Tags:** graphics, games, cards
+- **Install:** `daspkg install das-cards`
+- **URL:** [github.com/borisbat/dasCards](https://github.com/borisbat/dasCards)
+
+---
 
 ### das-claude
 
@@ -142,7 +161,7 @@ Test package: module with version tags
 
 ---
 
-_8 package(s) registered._
+_9 package(s) registered._
 
 ## Adding a package
 
