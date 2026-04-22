@@ -26,20 +26,6 @@
 	},
 	{
 		"has_native" : true,
-		"name" : "das-minfft",
-		"url" : "github.com/imp5imp5/dasMinfft",
-		"author" : "imp5imp5",
-		"license" : "MIT",
-		"tags" : [
-			"fft",
-			"audio",
-			"signal-processing",
-			"math"
-		],
-		"description" : "Minimal FFT library bindings for daslang — real/complex FFT, magnitude calculation"
-	},
-	{
-		"has_native" : true,
 		"name" : "dasImgui",
 		"url" : "github.com/borisbat/dasImgui",
 		"author" : "borisbat",

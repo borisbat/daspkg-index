@@ -8,7 +8,6 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 |---------|-------------|---------|
 | [das-cards](#das-cards) | Vector playing card rendering — SVG-based triangle mesh... | `daspkg install das-cards` |
 | [das-claude](#das-claude) | Typed bindings for the Anthropic Claude Messages API | `daspkg install das-claude` |
-| [das-minfft](#das-minfft) | Minimal FFT library bindings for daslang — real/complex... | `daspkg install das-minfft` |
 | [dasImgui](#dasImgui) | Dear ImGui bindings for daslang | `daspkg install dasImgui` |
 | [dasImguiNodeEditor](#dasImguiNodeEditor) | imgui-node-editor bindings for daslang | `daspkg install dasImguiNodeEditor` |
 | [dasTelegram](#dasTelegram) | Telegram Bot API bindings for daslang — zero-DOM JSON v... | `daspkg install dasTelegram` |
@@ -22,13 +21,9 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 
 **api**: das-claude, dasTelegram
 
-**audio**: das-minfft
-
 **bot**: dasTelegram
 
 **cards**: das-cards
-
-**fft**: das-minfft
 
 **games**: das-cards
 
@@ -39,10 +34,6 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 **http**: das-claude
 
 **imgui**: dasImgui, dasImguiNodeEditor
-
-**math**: das-minfft
-
-**signal-processing**: das-minfft
 
 **telegram**: dasTelegram
 
@@ -72,19 +63,6 @@ Typed bindings for the Anthropic Claude Messages API
 - **Min SDK:** 0.4
 - **Install:** `daspkg install das-claude`
 - **URL:** [github.com/borisbat/dasAnthropic](https://github.com/borisbat/dasAnthropic)
-
----
-
-### das-minfft
-
-Minimal FFT library bindings for daslang — real/complex FFT, magnitude calculation
-
-- **Author:** imp5imp5
-- **License:** MIT
-- **Tags:** fft, audio, signal-processing, math
-- **Native:** yes (requires C/C++ toolchain)
-- **Install:** `daspkg install das-minfft`
-- **URL:** [github.com/imp5imp5/dasMinfft](https://github.com/imp5imp5/dasMinfft)
 
 ---
 
@@ -161,7 +139,7 @@ Test package: module with version tags
 
 ---
 
-_9 package(s) registered._
+_8 package(s) registered._
 
 ## Adding a package
 
