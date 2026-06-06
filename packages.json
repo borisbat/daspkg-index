@@ -2,95 +2,111 @@
 	{
 		"name" : "das-cards",
 		"url" : "github.com/borisbat/dasCards",
+		"description" : "Vector playing card rendering — SVG-based triangle mesh cards for OpenGL",
 		"author" : "borisbat",
 		"license" : "LGPL-2.1",
 		"tags" : [
 			"graphics",
 			"games",
 			"cards"
-		],
-		"description" : "Vector playing card rendering — SVG-based triangle mesh cards for OpenGL"
+		]
 	},
 	{
 		"name" : "das-claude",
 		"url" : "github.com/borisbat/dasAnthropic",
+		"description" : "Typed bindings for the Anthropic Claude Messages API",
 		"author" : "borisbat",
 		"license" : "BSD-3-Clause",
-		"min_sdk" : "0.4",
 		"tags" : [
 			"ai",
 			"api",
 			"http"
 		],
-		"description" : "Typed bindings for the Anthropic Claude Messages API"
+		"min_sdk" : "0.4"
 	},
 	{
-		"has_native" : true,
 		"name" : "dasImgui",
 		"url" : "github.com/borisbat/dasImgui",
+		"description" : "Dear ImGui bindings for daslang",
 		"author" : "borisbat",
 		"license" : "MIT",
 		"tags" : [
 			"gui",
 			"imgui"
 		],
-		"description" : "Dear ImGui bindings for daslang"
+		"has_native" : true
 	},
 	{
-		"has_native" : true,
-		"name" : "dasImguiNodeEditor",
-		"url" : "github.com/borisbat/dasImguiNodeEditor",
+		"name" : "dasImguiImplot",
+		"url" : "github.com/borisbat/dasImguiImplot",
+		"description" : "ImPlot bindings for daslang",
 		"author" : "borisbat",
 		"license" : "MIT",
+		"tags" : [
+			"gui",
+			"imgui",
+			"plot"
+		],
+		"has_native" : true,
 		"dependencies" : [
 			"dasImgui"
-		],
+		]
+	},
+	{
+		"name" : "dasImguiNodeEditor",
+		"url" : "github.com/borisbat/dasImguiNodeEditor",
+		"description" : "imgui-node-editor bindings for daslang",
+		"author" : "borisbat",
+		"license" : "MIT",
 		"tags" : [
 			"gui",
 			"imgui"
 		],
-		"description" : "imgui-node-editor bindings for daslang"
+		"has_native" : true,
+		"dependencies" : [
+			"dasImgui"
+		]
 	},
 	{
 		"name" : "dasTelegram",
 		"url" : "github.com/borisbat/dasTelegram",
+		"description" : "Telegram Bot API bindings for daslang — zero-DOM JSON via sscan_json/sprint_json",
 		"author" : "borisbat",
 		"license" : "BSD-3-Clause",
 		"tags" : [
 			"telegram",
 			"bot",
 			"api"
-		],
-		"description" : "Telegram Bot API bindings for daslang — zero-DOM JSON via sscan_json/sprint_json"
+		]
 	},
 	{
 		"name" : "daspkg-test-deps",
 		"url" : "github.com/borisbat/daspkg-test-deps",
+		"description" : "Test package: module with dependencies",
 		"author" : "borisbat",
-		"dependencies" : [
-			"daspkg-test-pure"
-		],
 		"tags" : [
 			"test"
 		],
-		"description" : "Test package: module with dependencies"
+		"dependencies" : [
+			"daspkg-test-pure"
+		]
 	},
 	{
 		"name" : "daspkg-test-pure",
 		"url" : "github.com/borisbat/daspkg-test-pure",
+		"description" : "Test package: pure daslang module",
 		"author" : "borisbat",
 		"tags" : [
 			"test"
-		],
-		"description" : "Test package: pure daslang module"
+		]
 	},
 	{
 		"name" : "daspkg-test-versions",
 		"url" : "github.com/borisbat/daspkg-test-versions",
+		"description" : "Test package: module with version tags",
 		"author" : "borisbat",
 		"tags" : [
 			"test"
-		],
-		"description" : "Test package: module with version tags"
+		]
 	}
 ]

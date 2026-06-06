@@ -9,6 +9,7 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 | [das-cards](#das-cards) | Vector playing card rendering — SVG-based triangle mesh... | `daspkg install das-cards` |
 | [das-claude](#das-claude) | Typed bindings for the Anthropic Claude Messages API | `daspkg install das-claude` |
 | [dasImgui](#dasImgui) | Dear ImGui bindings for daslang | `daspkg install dasImgui` |
+| [dasImguiImplot](#dasImguiImplot) | ImPlot bindings for daslang | `daspkg install dasImguiImplot` |
 | [dasImguiNodeEditor](#dasImguiNodeEditor) | imgui-node-editor bindings for daslang | `daspkg install dasImguiNodeEditor` |
 | [dasTelegram](#dasTelegram) | Telegram Bot API bindings for daslang — zero-DOM JSON v... | `daspkg install dasTelegram` |
 | [daspkg-test-deps](#daspkg-test-deps) | Test package: module with dependencies | `daspkg install daspkg-test-deps` |
@@ -29,11 +30,13 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 
 **graphics**: das-cards
 
-**gui**: dasImgui, dasImguiNodeEditor
+**gui**: dasImgui, dasImguiImplot, dasImguiNodeEditor
 
 **http**: das-claude
 
-**imgui**: dasImgui, dasImguiNodeEditor
+**imgui**: dasImgui, dasImguiImplot, dasImguiNodeEditor
+
+**plot**: dasImguiImplot
 
 **telegram**: dasTelegram
 
@@ -76,6 +79,20 @@ Dear ImGui bindings for daslang
 - **Native:** yes (requires C/C++ toolchain)
 - **Install:** `daspkg install dasImgui`
 - **URL:** [github.com/borisbat/dasImgui](https://github.com/borisbat/dasImgui)
+
+---
+
+### dasImguiImplot
+
+ImPlot bindings for daslang
+
+- **Author:** borisbat
+- **License:** MIT
+- **Tags:** gui, imgui, plot
+- **Native:** yes (requires C/C++ toolchain)
+- **Dependencies:** dasImgui
+- **Install:** `daspkg install dasImguiImplot`
+- **URL:** [github.com/borisbat/dasImguiImplot](https://github.com/borisbat/dasImguiImplot)
 
 ---
 
@@ -139,7 +156,7 @@ Test package: module with version tags
 
 ---
 
-_8 package(s) registered._
+_9 package(s) registered._
 
 ## Adding a package
 
