@@ -12,6 +12,7 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 | [dasImguiImplot](#dasImguiImplot) | ImPlot bindings for daslang | `daspkg install dasImguiImplot` |
 | [dasImguiNodeEditor](#dasImguiNodeEditor) | imgui-node-editor bindings for daslang | `daspkg install dasImguiNodeEditor` |
 | [dasTelegram](#dasTelegram) | Telegram Bot API bindings for daslang — zero-DOM JSON v... | `daspkg install dasTelegram` |
+| [dasVulkan](#dasVulkan) | Vulkan bindings for daslang, generated from vk.xml | `daspkg install dasVulkan` |
 | [daspkg-test-deps](#daspkg-test-deps) | Test package: module with dependencies | `daspkg install daspkg-test-deps` |
 | [daspkg-test-pure](#daspkg-test-pure) | Test package: pure daslang module | `daspkg install daspkg-test-pure` |
 | [daspkg-test-versions](#daspkg-test-versions) | Test package: module with version tags | `daspkg install daspkg-test-versions` |
@@ -28,7 +29,9 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 
 **games**: das-cards
 
-**graphics**: das-cards
+**gpu**: dasVulkan
+
+**graphics**: das-cards, dasVulkan
 
 **gui**: dasImgui, dasImguiImplot, dasImguiNodeEditor
 
@@ -41,6 +44,8 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 **telegram**: dasTelegram
 
 **test**: daspkg-test-deps, daspkg-test-pure, daspkg-test-versions
+
+**vulkan**: dasVulkan
 
 ## Packages
 
@@ -122,6 +127,19 @@ Telegram Bot API bindings for daslang — zero-DOM JSON via sscan_json/sprint_js
 
 ---
 
+### dasVulkan
+
+Vulkan bindings for daslang, generated from vk.xml
+
+- **Author:** borisbat
+- **License:** MIT
+- **Tags:** graphics, vulkan, gpu
+- **Native:** yes (requires C/C++ toolchain)
+- **Install:** `daspkg install dasVulkan`
+- **URL:** [github.com/borisbat/dasVulkan](https://github.com/borisbat/dasVulkan)
+
+---
+
 ### daspkg-test-deps
 
 Test package: module with dependencies
@@ -156,7 +174,7 @@ Test package: module with version tags
 
 ---
 
-_9 package(s) registered._
+_10 package(s) registered._
 
 ## Adding a package
 

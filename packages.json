@@ -80,6 +80,19 @@
 		]
 	},
 	{
+		"name" : "dasVulkan",
+		"url" : "github.com/borisbat/dasVulkan",
+		"description" : "Vulkan bindings for daslang, generated from vk.xml",
+		"author" : "borisbat",
+		"license" : "MIT",
+		"tags" : [
+			"graphics",
+			"vulkan",
+			"gpu"
+		],
+		"has_native" : true
+	},
+	{
 		"name" : "daspkg-test-deps",
 		"url" : "github.com/borisbat/daspkg-test-deps",
 		"description" : "Test package: module with dependencies",
