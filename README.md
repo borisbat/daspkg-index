@@ -12,6 +12,7 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 | [dasImgui](#dasImgui) | Dear ImGui bindings for daslang | `daspkg install dasImgui` |
 | [dasImguiImplot](#dasImguiImplot) | ImPlot bindings for daslang | `daspkg install dasImguiImplot` |
 | [dasImguiNodeEditor](#dasImguiNodeEditor) | imgui-node-editor bindings for daslang | `daspkg install dasImguiNodeEditor` |
+| [dasPostgreSQL](#dasPostgreSQL) | PostgreSQL (libpq) bindings and SQL LINQ provider for das... | `daspkg install dasPostgreSQL` |
 | [dasTelegram](#dasTelegram) | Telegram Bot API bindings for daslang — zero-DOM JSON v... | `daspkg install dasTelegram` |
 | [dasVideo](#dasVideo) | Video playback for daslang (pl_mpeg / dav1d, royalty-free) | `daspkg install dasVideo` |
 | [dasVulkan](#dasVulkan) | Vulkan bindings for daslang, generated from vk.xml | `daspkg install dasVulkan` |
@@ -30,7 +31,7 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 
 **cards**: das-cards
 
-**database**: dasDuckDB
+**database**: dasDuckDB, dasPostgreSQL
 
 **decode**: dasVideo
 
@@ -52,7 +53,9 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 
 **plot**: dasImguiImplot
 
-**sql**: dasDuckDB
+**postgresql**: dasPostgreSQL
+
+**sql**: dasDuckDB, dasPostgreSQL
 
 **telegram**: dasTelegram
 
@@ -143,6 +146,19 @@ imgui-node-editor bindings for daslang
 
 ---
 
+### dasPostgreSQL
+
+PostgreSQL (libpq) bindings and SQL LINQ provider for daslang
+
+- **Author:** borisbat
+- **License:** MIT
+- **Tags:** sql, database, postgresql
+- **Native:** yes (requires C/C++ toolchain)
+- **Install:** `daspkg install dasPostgreSQL`
+- **URL:** [github.com/borisbat/dasPostgreSQL](https://github.com/borisbat/dasPostgreSQL)
+
+---
+
 ### dasTelegram
 
 Telegram Bot API bindings for daslang — zero-DOM JSON via sscan_json/sprint_json
@@ -225,7 +241,7 @@ Minmax heap implementation, see github for details on usage
 
 ---
 
-_13 package(s) registered._
+_14 package(s) registered._
 
 ## Adding a package
 
