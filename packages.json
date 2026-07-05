@@ -9,7 +9,8 @@
 			"graphics",
 			"games",
 			"cards"
-		]
+		],
+		"last_updated" : "%cs"
 	},
 	{
 		"name" : "das-claude",
@@ -22,7 +23,8 @@
 			"api",
 			"http"
 		],
-		"min_sdk" : "0.4"
+		"min_sdk" : "0.4",
+		"last_updated" : "%cs"
 	},
 	{
 		"name" : "dasDuckDB",
@@ -35,6 +37,7 @@
 			"database",
 			"duckdb"
 		],
+		"last_updated" : "%cs",
 		"has_native" : true
 	},
 	{
@@ -47,12 +50,14 @@
 			"gui",
 			"imgui"
 		],
+		"last_updated" : "%cs",
 		"has_native" : true
 	},
 	{
-		"name" : "dasImguiImplot",
-		"url" : "github.com/borisbat/dasImguiImplot",
-		"description" : "ImPlot bindings for daslang",
+		"has_native" : true,
+		"dependencies" : [
+			"dasImgui"
+		],
 		"author" : "borisbat",
 		"license" : "MIT",
 		"tags" : [
@@ -60,25 +65,26 @@
 			"imgui",
 			"plot"
 		],
+		"last_updated" : "%cs",
+		"name" : "dasImguiImplot",
+		"url" : "github.com/borisbat/dasImguiImplot",
+		"description" : "ImPlot bindings for daslang"
+	},
+	{
 		"has_native" : true,
 		"dependencies" : [
 			"dasImgui"
-		]
-	},
-	{
-		"name" : "dasImguiNodeEditor",
-		"url" : "github.com/borisbat/dasImguiNodeEditor",
-		"description" : "imgui-node-editor bindings for daslang",
+		],
 		"author" : "borisbat",
 		"license" : "MIT",
 		"tags" : [
 			"gui",
 			"imgui"
 		],
-		"has_native" : true,
-		"dependencies" : [
-			"dasImgui"
-		]
+		"last_updated" : "%cs",
+		"name" : "dasImguiNodeEditor",
+		"url" : "github.com/borisbat/dasImguiNodeEditor",
+		"description" : "imgui-node-editor bindings for daslang"
 	},
 	{
 		"name" : "dasPostgreSQL",
@@ -91,6 +97,7 @@
 			"database",
 			"postgresql"
 		],
+		"last_updated" : "%cs",
 		"has_native" : true
 	},
 	{
@@ -103,7 +110,8 @@
 			"telegram",
 			"bot",
 			"api"
-		]
+		],
+		"last_updated" : "%cs"
 	},
 	{
 		"name" : "dasVideo",
@@ -116,6 +124,7 @@
 			"media",
 			"decode"
 		],
+		"last_updated" : "%cs",
 		"has_native" : true
 	},
 	{
@@ -129,6 +138,7 @@
 			"vulkan",
 			"gpu"
 		],
+		"last_updated" : "%cs",
 		"has_native" : true
 	},
 	{
@@ -139,6 +149,7 @@
 		"tags" : [
 			"test"
 		],
+		"last_updated" : "%cs",
 		"dependencies" : [
 			"daspkg-test-pure"
 		]
@@ -150,7 +161,8 @@
 		"author" : "borisbat",
 		"tags" : [
 			"test"
-		]
+		],
+		"last_updated" : "%cs"
 	},
 	{
 		"name" : "daspkg-test-versions",
@@ -159,12 +171,14 @@
 		"author" : "borisbat",
 		"tags" : [
 			"test"
-		]
+		],
+		"last_updated" : "%cs"
 	},
 	{
 		"name" : "minmaxheap",
 		"url" : "github.com/JohnathanKG/minmaxheap",
 		"description" : "Minmax heap implementation, see github for details on usage",
-		"author" : "vi"
+		"author" : "vi",
+		"last_updated" : "%cs"
 	}
 ]

@@ -74,6 +74,7 @@ Vector playing card rendering — SVG-based triangle mesh cards for OpenGL
 - **Author:** borisbat
 - **License:** LGPL-2.1
 - **Tags:** graphics, games, cards
+- **Updated:** %cs
 - **Install:** `daspkg install das-cards`
 - **URL:** [github.com/borisbat/dasCards](https://github.com/borisbat/dasCards)
 
@@ -87,6 +88,7 @@ Typed bindings for the Anthropic Claude Messages API
 - **License:** BSD-3-Clause
 - **Tags:** ai, api, http
 - **Min SDK:** 0.4
+- **Updated:** %cs
 - **Install:** `daspkg install das-claude`
 - **URL:** [github.com/borisbat/dasAnthropic](https://github.com/borisbat/dasAnthropic)
 
@@ -99,6 +101,7 @@ DuckDB bindings and SQL LINQ provider for daslang
 - **Author:** borisbat
 - **License:** MIT
 - **Tags:** sql, database, duckdb
+- **Updated:** %cs
 - **Native:** yes (requires C/C++ toolchain)
 - **Install:** `daspkg install dasDuckDB`
 - **URL:** [github.com/borisbat/dasDuckDB](https://github.com/borisbat/dasDuckDB)
@@ -112,6 +115,7 @@ Dear ImGui bindings for daslang
 - **Author:** borisbat
 - **License:** MIT
 - **Tags:** gui, imgui
+- **Updated:** %cs
 - **Native:** yes (requires C/C++ toolchain)
 - **Install:** `daspkg install dasImgui`
 - **URL:** [github.com/borisbat/dasImgui](https://github.com/borisbat/dasImgui)
@@ -125,6 +129,7 @@ ImPlot bindings for daslang
 - **Author:** borisbat
 - **License:** MIT
 - **Tags:** gui, imgui, plot
+- **Updated:** %cs
 - **Native:** yes (requires C/C++ toolchain)
 - **Dependencies:** dasImgui
 - **Install:** `daspkg install dasImguiImplot`
@@ -139,6 +144,7 @@ imgui-node-editor bindings for daslang
 - **Author:** borisbat
 - **License:** MIT
 - **Tags:** gui, imgui
+- **Updated:** %cs
 - **Native:** yes (requires C/C++ toolchain)
 - **Dependencies:** dasImgui
 - **Install:** `daspkg install dasImguiNodeEditor`
@@ -153,6 +159,7 @@ PostgreSQL (libpq) bindings and SQL LINQ provider for daslang
 - **Author:** borisbat
 - **License:** MIT
 - **Tags:** sql, database, postgresql
+- **Updated:** %cs
 - **Native:** yes (requires C/C++ toolchain)
 - **Install:** `daspkg install dasPostgreSQL`
 - **URL:** [github.com/borisbat/dasPostgreSQL](https://github.com/borisbat/dasPostgreSQL)
@@ -166,6 +173,7 @@ Telegram Bot API bindings for daslang — zero-DOM JSON via sscan_json/sprint_js
 - **Author:** borisbat
 - **License:** BSD-3-Clause
 - **Tags:** telegram, bot, api
+- **Updated:** %cs
 - **Install:** `daspkg install dasTelegram`
 - **URL:** [github.com/borisbat/dasTelegram](https://github.com/borisbat/dasTelegram)
 
@@ -178,6 +186,7 @@ Video playback for daslang (pl_mpeg / dav1d, royalty-free)
 - **Author:** borisbat
 - **License:** MIT
 - **Tags:** video, media, decode
+- **Updated:** %cs
 - **Native:** yes (requires C/C++ toolchain)
 - **Install:** `daspkg install dasVideo`
 - **URL:** [github.com/borisbat/dasVideo](https://github.com/borisbat/dasVideo)
@@ -191,6 +200,7 @@ Vulkan bindings for daslang, generated from vk.xml
 - **Author:** borisbat
 - **License:** MIT
 - **Tags:** graphics, vulkan, gpu
+- **Updated:** %cs
 - **Native:** yes (requires C/C++ toolchain)
 - **Install:** `daspkg install dasVulkan`
 - **URL:** [github.com/borisbat/dasVulkan](https://github.com/borisbat/dasVulkan)
@@ -203,6 +213,7 @@ Test package: module with dependencies
 
 - **Author:** borisbat
 - **Tags:** test
+- **Updated:** %cs
 - **Dependencies:** daspkg-test-pure
 - **Install:** `daspkg install daspkg-test-deps`
 - **URL:** [github.com/borisbat/daspkg-test-deps](https://github.com/borisbat/daspkg-test-deps)
@@ -215,6 +226,7 @@ Test package: pure daslang module
 
 - **Author:** borisbat
 - **Tags:** test
+- **Updated:** %cs
 - **Install:** `daspkg install daspkg-test-pure`
 - **URL:** [github.com/borisbat/daspkg-test-pure](https://github.com/borisbat/daspkg-test-pure)
 
@@ -226,6 +238,7 @@ Test package: module with version tags
 
 - **Author:** borisbat
 - **Tags:** test
+- **Updated:** %cs
 - **Install:** `daspkg install daspkg-test-versions`
 - **URL:** [github.com/borisbat/daspkg-test-versions](https://github.com/borisbat/daspkg-test-versions)
 
@@ -236,6 +249,7 @@ Test package: module with version tags
 Minmax heap implementation, see github for details on usage
 
 - **Author:** vi
+- **Updated:** %cs
 - **Install:** `daspkg install minmaxheap`
 - **URL:** [github.com/JohnathanKG/minmaxheap](https://github.com/JohnathanKG/minmaxheap)
 
