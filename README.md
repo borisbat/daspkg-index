@@ -12,6 +12,7 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 | [dasImguiImplot](#dasImguiImplot) | ImPlot bindings for daslang | `daspkg install dasImguiImplot` |
 | [dasImguiNodeEditor](#dasImguiNodeEditor) | imgui-node-editor bindings for daslang | `daspkg install dasImguiNodeEditor` |
 | [dasTelegram](#dasTelegram) | Telegram Bot API bindings for daslang — zero-DOM JSON v... | `daspkg install dasTelegram` |
+| [dasVideo](#dasVideo) | Video playback for daslang (pl_mpeg / dav1d, royalty-free) | `daspkg install dasVideo` |
 | [dasVulkan](#dasVulkan) | Vulkan bindings for daslang, generated from vk.xml | `daspkg install dasVulkan` |
 | [daspkg-test-deps](#daspkg-test-deps) | Test package: module with dependencies | `daspkg install daspkg-test-deps` |
 | [daspkg-test-pure](#daspkg-test-pure) | Test package: pure daslang module | `daspkg install daspkg-test-pure` |
@@ -27,6 +28,8 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 
 **cards**: das-cards
 
+**decode**: dasVideo
+
 **games**: das-cards
 
 **gpu**: dasVulkan
@@ -39,11 +42,15 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 
 **imgui**: dasImgui, dasImguiImplot, dasImguiNodeEditor
 
+**media**: dasVideo
+
 **plot**: dasImguiImplot
 
 **telegram**: dasTelegram
 
 **test**: daspkg-test-deps, daspkg-test-pure, daspkg-test-versions
+
+**video**: dasVideo
 
 **vulkan**: dasVulkan
 
@@ -127,6 +134,19 @@ Telegram Bot API bindings for daslang — zero-DOM JSON via sscan_json/sprint_js
 
 ---
 
+### dasVideo
+
+Video playback for daslang (pl_mpeg / dav1d, royalty-free)
+
+- **Author:** borisbat
+- **License:** MIT
+- **Tags:** video, media, decode
+- **Native:** yes (requires C/C++ toolchain)
+- **Install:** `daspkg install dasVideo`
+- **URL:** [github.com/borisbat/dasVideo](https://github.com/borisbat/dasVideo)
+
+---
+
 ### dasVulkan
 
 Vulkan bindings for daslang, generated from vk.xml
@@ -174,7 +194,7 @@ Test package: module with version tags
 
 ---
 
-_10 package(s) registered._
+_11 package(s) registered._
 
 ## Adding a package
 
