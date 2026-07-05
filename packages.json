@@ -81,6 +81,19 @@
 		]
 	},
 	{
+		"name" : "dasPostgreSQL",
+		"url" : "github.com/borisbat/dasPostgreSQL",
+		"description" : "PostgreSQL (libpq) bindings and SQL LINQ provider for daslang",
+		"author" : "borisbat",
+		"license" : "MIT",
+		"tags" : [
+			"sql",
+			"database",
+			"postgresql"
+		],
+		"has_native" : true
+	},
+	{
 		"name" : "dasTelegram",
 		"url" : "github.com/borisbat/dasTelegram",
 		"description" : "Telegram Bot API bindings for daslang — zero-DOM JSON via sscan_json/sprint_json",
