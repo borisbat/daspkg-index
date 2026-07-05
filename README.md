@@ -17,6 +17,7 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 | [daspkg-test-deps](#daspkg-test-deps) | Test package: module with dependencies | `daspkg install daspkg-test-deps` |
 | [daspkg-test-pure](#daspkg-test-pure) | Test package: pure daslang module | `daspkg install daspkg-test-pure` |
 | [daspkg-test-versions](#daspkg-test-versions) | Test package: module with version tags | `daspkg install daspkg-test-versions` |
+| [minmaxheap](#minmaxheap) | Minmax heap implementation, see github for details on usage | `daspkg install minmaxheap` |
 
 ## Packages by Tag
 
@@ -194,7 +195,17 @@ Test package: module with version tags
 
 ---
 
-_11 package(s) registered._
+### minmaxheap
+
+Minmax heap implementation, see github for details on usage
+
+- **Author:** vi
+- **Install:** `daspkg install minmaxheap`
+- **URL:** [github.com/JohnathanKG/minmaxheap](https://github.com/JohnathanKG/minmaxheap)
+
+---
+
+_12 package(s) registered._
 
 ## Adding a package
 
