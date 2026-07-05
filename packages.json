@@ -25,6 +25,19 @@
 		"min_sdk" : "0.4"
 	},
 	{
+		"name" : "dasDuckDB",
+		"url" : "github.com/borisbat/dasDuckDB",
+		"description" : "DuckDB bindings and SQL LINQ provider for daslang",
+		"author" : "borisbat",
+		"license" : "MIT",
+		"tags" : [
+			"sql",
+			"database",
+			"duckdb"
+		],
+		"has_native" : true
+	},
+	{
 		"name" : "dasImgui",
 		"url" : "github.com/borisbat/dasImgui",
 		"description" : "Dear ImGui bindings for daslang",
