@@ -134,5 +134,11 @@
 		"tags" : [
 			"test"
 		]
+	},
+	{
+		"name" : "minmaxheap",
+		"url" : "github.com/JohnathanKG/minmaxheap",
+		"description" : "Minmax heap implementation, see github for details on usage",
+		"author" : "vi"
 	}
 ]
