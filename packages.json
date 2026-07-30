@@ -41,19 +41,6 @@
 		"has_native" : true
 	},
 	{
-		"name" : "dasImgui",
-		"url" : "github.com/borisbat/dasImgui",
-		"description" : "Dear ImGui bindings for daslang",
-		"author" : "borisbat",
-		"license" : "MIT",
-		"tags" : [
-			"gui",
-			"imgui"
-		],
-		"last_updated" : "2026-07-02",
-		"has_native" : true
-	},
-	{
 		"has_native" : true,
 		"dependencies" : [
 			"dasImgui"
