@@ -9,7 +9,6 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 | [das-cards](#das-cards) | Vector playing card rendering — SVG-based triangle mesh... | `daspkg install das-cards` |
 | [das-claude](#das-claude) | Typed bindings for the Anthropic Claude Messages API | `daspkg install das-claude` |
 | [dasDuckDB](#dasDuckDB) | DuckDB bindings and SQL LINQ provider for daslang | `daspkg install dasDuckDB` |
-| [dasImgui](#dasImgui) | Dear ImGui bindings for daslang | `daspkg install dasImgui` |
 | [dasImguiImplot](#dasImguiImplot) | ImPlot bindings for daslang | `daspkg install dasImguiImplot` |
 | [dasImguiNodeEditor](#dasImguiNodeEditor) | imgui-node-editor bindings for daslang | `daspkg install dasImguiNodeEditor` |
 | [dasPostgreSQL](#dasPostgreSQL) | PostgreSQL (libpq) bindings and SQL LINQ provider for das... | `daspkg install dasPostgreSQL` |
@@ -43,11 +42,11 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 
 **graphics**: das-cards, dasVulkan
 
-**gui**: dasImgui, dasImguiImplot, dasImguiNodeEditor
+**gui**: dasImguiImplot, dasImguiNodeEditor
 
 **http**: das-claude
 
-**imgui**: dasImgui, dasImguiImplot, dasImguiNodeEditor
+**imgui**: dasImguiImplot, dasImguiNodeEditor
 
 **media**: dasVideo
 
@@ -105,20 +104,6 @@ DuckDB bindings and SQL LINQ provider for daslang
 - **Native:** yes (requires C/C++ toolchain)
 - **Install:** `daspkg install dasDuckDB`
 - **URL:** [github.com/borisbat/dasDuckDB](https://github.com/borisbat/dasDuckDB)
-
----
-
-### dasImgui
-
-Dear ImGui bindings for daslang
-
-- **Author:** borisbat
-- **License:** MIT
-- **Tags:** gui, imgui
-- **Updated:** 2026-07-02
-- **Native:** yes (requires C/C++ toolchain)
-- **Install:** `daspkg install dasImgui`
-- **URL:** [github.com/borisbat/dasImgui](https://github.com/borisbat/dasImgui)
 
 ---
 
@@ -255,7 +240,7 @@ Minmax heap implementation, see github for details on usage
 
 ---
 
-_14 package(s) registered._
+_13 package(s) registered._
 
 ## Adding a package
 
