@@ -88,6 +88,20 @@
 		"has_native" : true
 	},
 	{
+		"name" : "dasSDL3",
+		"url" : "github.com/spiiin/dasSDL3",
+		"description" : "SDL3 bindings for daslang: Windows x64 core and ImGui profiles",
+		"author" : "spiiin",
+		"license" : "MIT",
+		"tags" : [
+			"sdl3",
+			"graphics",
+			"imgui"
+		],
+		"min_sdk" : "0.6.4",
+		"has_native" : true
+	},
+	{
 		"name" : "dasTelegram",
 		"url" : "github.com/borisbat/dasTelegram",
 		"description" : "Telegram Bot API bindings for daslang — zero-DOM JSON via sscan_json/sprint_json",
