@@ -99,7 +99,10 @@
 			"imgui"
 		],
 		"min_sdk" : "0.6.4",
-		"has_native" : true
+		"has_native" : true,
+		"platforms" : [
+			"windows"
+		]
 	},
 	{
 		"name" : "dasTelegram",
