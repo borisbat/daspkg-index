@@ -12,6 +12,7 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 | [dasImguiImplot](#dasImguiImplot) | ImPlot bindings for daslang | `daspkg install dasImguiImplot` |
 | [dasImguiNodeEditor](#dasImguiNodeEditor) | imgui-node-editor bindings for daslang | `daspkg install dasImguiNodeEditor` |
 | [dasPostgreSQL](#dasPostgreSQL) | PostgreSQL (libpq) bindings and SQL LINQ provider for das... | `daspkg install dasPostgreSQL` |
+| [dasSDL3](#dasSDL3) | SDL3 bindings for daslang: Windows x64 core and ImGui pro... | `daspkg install dasSDL3` |
 | [dasTelegram](#dasTelegram) | Telegram Bot API bindings for daslang — zero-DOM JSON v... | `daspkg install dasTelegram` |
 | [dasVideo](#dasVideo) | Video playback for daslang (pl_mpeg / dav1d, royalty-free) | `daspkg install dasVideo` |
 | [daspkg-test-deps](#daspkg-test-deps) | Test package: module with dependencies | `daspkg install daspkg-test-deps` |
@@ -37,19 +38,21 @@ Package registry for [daspkg](https://github.com/GaijinEntertainment/daScript), 
 
 **games**: das-cards
 
-**graphics**: das-cards
+**graphics**: das-cards, dasSDL3
 
 **gui**: dasImguiImplot, dasImguiNodeEditor
 
 **http**: das-claude
 
-**imgui**: dasImguiImplot, dasImguiNodeEditor
+**imgui**: dasImguiImplot, dasImguiNodeEditor, dasSDL3
 
 **media**: dasVideo
 
 **plot**: dasImguiImplot
 
 **postgresql**: dasPostgreSQL
+
+**sdl3**: dasSDL3
 
 **sql**: dasDuckDB, dasPostgreSQL
 
@@ -143,6 +146,20 @@ PostgreSQL (libpq) bindings and SQL LINQ provider for daslang
 - **Native:** yes (requires C/C++ toolchain)
 - **Install:** `daspkg install dasPostgreSQL`
 - **URL:** [github.com/borisbat/dasPostgreSQL](https://github.com/borisbat/dasPostgreSQL)
+
+---
+
+### dasSDL3
+
+SDL3 bindings for daslang: Windows x64 core and ImGui profiles
+
+- **Author:** spiiin
+- **License:** MIT
+- **Tags:** sdl3, graphics, imgui
+- **Min SDK:** 0.6.4
+- **Native:** yes (requires C/C++ toolchain)
+- **Install:** `daspkg install dasSDL3`
+- **URL:** [github.com/spiiin/dasSDL3](https://github.com/spiiin/dasSDL3)
 
 ---
 
