@@ -1,0 +1,59 @@
+name: update index
+
+# Refreshes every entry of packages.json from its package's manifest: builds daslang master
+# core-only (the parser is pre-generated; no optional module is needed to run daspkg), runs
+# `daspkg update-index --commit`, and pushes the result to main when anything changed. A
+# package whose clone or manifest fails is named in the log and fails the run after the rest
+# refreshed - the same ABI signal the daScript nightly sweep watches for. Dispatch-only until
+# every hand-edited entry is backed by its manifest: a refresh replaces an entry's platforms
+# with what the manifest declares.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-index
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+    - name: "Checkout daslang master"
+      uses: actions/checkout@v4
+      with:
+        repository: GaijinEntertainment/daScript
+        path: daScript
+
+    - name: "Install CMake and Ninja"
+      uses: lukka/get-cmake@latest
+
+    - name: "Build daslang (core only)"
+      run: |
+        set -eux
+        DISABLED=""
+        for feature in FLEX_BISON CLANG_BIND LLVM SMT HV GLFW IMGUI VULKAN AUDIO STDDLG \
+                       MESHOPTIMIZER STBIMAGE METAL ACCELERATE CLIPBOARD SQLITE TREE_SITTER \
+                       TERMINAL AOT_EXAMPLES TUTORIAL TESTS; do
+          DISABLED="$DISABLED -DDAS_${feature}_DISABLED=ON"
+        done
+        CC=clang CXX=clang++ cmake --no-warn-unused-cli -S daScript -B build \
+          -DCMAKE_BUILD_TYPE=Release -G Ninja $DISABLED
+        cmake --build build --target daslang
+
+    - name: "daspkg update-index --commit"
+      # the index cache clone is https; the token rides on every github.com URL, so the push
+      # to main authenticates without a checkout of this repository
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        set -eux
+        git config --global user.name "daspkg-index bot"
+        git config --global user.email "daspkg-index@users.noreply.github.com"
+        git config --global url."https://x-access-token:${GH_TOKEN}@github.com/".insteadOf "https://github.com/"
+        mkdir -p work
+        build/daslang daScript/utils/daspkg/main.das -- update-index --commit --root "$PWD/work"
